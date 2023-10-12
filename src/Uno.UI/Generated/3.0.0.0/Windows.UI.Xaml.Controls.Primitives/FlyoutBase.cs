@@ -27,20 +27,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		// Skipping already declared property AllowFocusWhenDisabled
 		// Skipping already declared property AllowFocusOnInteraction
 		// Skipping already declared property Target
-		#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public global::Windows.UI.Xaml.DependencyObject OverlayInputPassThroughElement
-		{
-			get
-			{
-				return (global::Windows.UI.Xaml.DependencyObject)this.GetValue(OverlayInputPassThroughElementProperty);
-			}
-			set
-			{
-				this.SetValue(OverlayInputPassThroughElementProperty, value);
-			}
-		}
-#endif
+		// Skipping already declared property OverlayInputPassThroughElement
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public global::Windows.UI.Xaml.Controls.Primitives.FlyoutShowMode ShowMode
@@ -118,14 +105,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			new Windows.UI.Xaml.FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.ElementSoundMode)));
 #endif
 		// Skipping already declared property LightDismissOverlayModeProperty
-		#if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || false || __NETSTD_REFERENCE__ || __MACOS__
-		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
-		public static global::Windows.UI.Xaml.DependencyProperty OverlayInputPassThroughElementProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
-			nameof(OverlayInputPassThroughElement), typeof(global::Windows.UI.Xaml.DependencyObject),
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase),
-			new Windows.UI.Xaml.FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.DependencyObject)));
-#endif
+		// Skipping already declared property OverlayInputPassThroughElementProperty
 #if __ANDROID__ || __IOS__ || IS_UNIT_TESTS || __WASM__ || __SKIA__ || __NETSTD_REFERENCE__ || __MACOS__
 		[global::Uno.NotImplemented("__ANDROID__", "__IOS__", "IS_UNIT_TESTS", "__WASM__", "__SKIA__", "__NETSTD_REFERENCE__", "__MACOS__")]
 		public static global::Windows.UI.Xaml.DependencyProperty AreOpenCloseAnimationsEnabledProperty { get; } =
